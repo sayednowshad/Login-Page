@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head> 
+
+       
+        <p class="page"> Welcome to my Restuarent Page </p>
+
+       
+
+        <style>
+
+            .page {
+
+             font-size : 30px;
+             margin-top: 19px;
+             text-align: center;
+             color : white;
+             text-shadow: 1px 1px 2px black;
+             
+            }
+            body{
+
+                background-image: url('https://t4.ftcdn.net/jpg/07/12/29/35/240_F_712293504_YfUNJ0gowwY0hH45nmSQsDZ1Eu8ByOaW.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100% 100%;
+            }
+
+            .container{
+                margin-top : 100px;
+                padding : 60px 60px 60px 60px;
+                border : 3px solid gray;
+                box-shadow: 10px 13px 15px  gray;
+                border-block-end-style: 100px;
+                width : 400px;
+                margin-left: 10px;
+            }
+
+        
+
+        </style>
+                           
+    </head>
+
+    <body>      
+
+            </div class="login">
+    
+            <center>
+
+                <div class="container"> 
+    
+                    <label for="uname" stye=""><b> UserName </b></label>
+
+                    <input style="border : none" type="text" ; placeholder="Enter Your Name" ; name="username" required><br><br>
+    
+                    <label for="psw"><b>Password</b></label>
+
+                    <input style="border : none" type="password" placeholder="Enter password" ; name="psw" required><br><br>
+    
+                    <button type="submit"> Login </button> <br><br>
+    
+                    <label style="color: white;">
+    
+                        <input style = "border : none" type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+        
+                </div>
+    
+            </center>
+           
+        </div>
+       
+    </body>
+
+</html>
